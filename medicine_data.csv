@@ -1,4 +1,4 @@
-Medicine Name,Dosage,Quantity,Price,Category
+Medicine,Dosage,Quantity,Price,Category
 Aspirin,40mg,38,80.01,Antihistamine
 Amoxicillin,500mg,24,40.91,Cardiovascular
 Atorvastatin,1000mg,14,43.93,Cardiovascular
