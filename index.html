@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Dashboard</title>
+</head>
+<body>
+    <h1>Choose a Graph Type</h1>
+    <form action="/plot" method="post">
+        <label for="graph_type">Graph Type:</label>
+        <select name="graph_type" id="graph_type">
+            <option value="1">Medicine Category Distribution (Bar Plot)</option>
+            <option value="2">Price Distribution per Category (Box Plot)</option>
+            <option value="3">Dosage vs. Price by Category (Scatter Plot)</option>
+            <option value="4">Total Quantity of Medicines by Category (Pie Chart)</option>
+        </select>
+        <br>
+        <label for="category">Filter by Category (optional):</label>
+        <input type="text" id="category" name="category">
+        <br><br>
+        <button type="submit">Generate Plot</button>
+    </form>
+</body>
+</html>
